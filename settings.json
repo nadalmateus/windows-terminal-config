@@ -1,17 +1,17 @@
-
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+
     "theme": "dark",
-   
     "copyOnSelect": false,
-  
     "copyFormatting": false,
   
     "profiles": {
-      "defaults": {
-        "colorScheme" : "Omni"
-        
+      "defaults": {   
+        "fontFace": "Fira Code",
+        "fontSize": 11,
+        "useAcrylic": true,
+        "acrylicOpacity": 0.8     
       },
       "list": [
         {
@@ -37,39 +37,10 @@
           "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
           "hidden": false,
           "name": "PowerShell",
-          "source": "Windows.Terminal.PowershellCore",
-          "fontFace": "Fira Code",
-          "fontSize": 11,
-          "useAcrylic": true,
-          "acrylicOpacity": 0.8
+          "source": "Windows.Terminal.PowershellCore"
         }
       ]
-    },
-  
-    "schemes": [
-      {
-          "name" : "Omni",
-          "background" : "#191622",
-          "black" : "#21222C",
-          "blue" : "#BD93F9",
-          "cyan" : "#8BE9FD",
-          "foreground" : "#F8F8F2",
-          "green" : "#50FA7B",
-          "purple" : "#FF79C6",
-          "red" : "#FF5555",
-          "white" : "#F8F8F2",
-          "yellow" : "#FFB86C",
-          "brightBlack" : "#6272A4",
-          "brightBlue" : "#D6ACFF",
-          "brightCyan" : "#A4FFFF",
-          "brightGreen" : "#69FF94",
-          "brightPurple" : "#FF92DF",
-          "brightRed" : "#FF6E6E",
-          "brightWhite" : "#F8F8F2",
-          "brightYellow" : "#FFFFA5"
-      }
-  ],
-   
+    },   
     "keybindings": [
      
       {
