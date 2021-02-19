@@ -1,6 +1,3 @@
-# My config: 😊
-
-{
 { "$schema": "https://aka.ms/terminal-profiles-schema", "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
 
     "theme": "dark",
@@ -8,11 +5,11 @@
     "copyFormatting": false,
     "showTabsInTitlebar": false,
     "showTerminalTitleInTitlebar": false,
-    "alwaysShowTabs": true,
+    "alwaysShowTabs": false,
     
     "profiles": {
       "defaults": {   
-        "fontFace": "Fira Code",
+        "fontFace": "Cascadia Code Light",
         "fontSize": 11,
         "useAcrylic": true,
         "acrylicOpacity": 0.8     
@@ -26,7 +23,7 @@
         },
         {
         
-          "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+          "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}", 
           "name": "Prompt de comando",
           "commandline": "cmd.exe",
           "hidden": false
@@ -41,7 +38,10 @@
           "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
           "hidden": false,
           "name": "PowerShell",
-          "source": "Windows.Terminal.PowershellCore"
+          "source": "Windows.Terminal.PowershellCore",
+          "fontFace": "Cascadia Code Light",
+          "suppressApplicationTitle": true,
+          "antialiasingMode": "cleartype"
         }
       ]
     },   
@@ -74,4 +74,3 @@
       }
     ]
     }
-}
