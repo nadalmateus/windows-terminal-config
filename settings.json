@@ -19,7 +19,7 @@
         "defaults": {
             "acrylicOpacity": 0.90000000000000002,
             "bellStyle": "none",
-            "fontFace": "Cascadia Code PL",
+            "fontFace": "Cascadia Code",
             "startingDirectory": "C:/Dev",
             "tabColor": "#333333",
             "useAcrylic": true
